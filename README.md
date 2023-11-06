@@ -26,7 +26,7 @@ The following REQUIRED features are completed:
 
 The following REQUIRED files are included:
 
-- [ ] Included 📄 `brainstorming.md`, which contains:
+- [X] Included 📄 `brainstorming.md`, which contains:
   - [X] Our initial brainstorming ideas (6+ ideas)
   - [X] 5-category evaluation of our top 3 ideas
   - [X] Final app idea chosen
