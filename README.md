@@ -33,7 +33,7 @@ The following REQUIRED files are included:
 - [X] Included 📄 `project_spec.md`, which contains:
   - [X] App Overview: Description and evaluation
   - [X] App Spec: User features, Chosen API(s), User Interactions
-  - [ ] Wireframe image(s)
+  - [X] Wireframe image(s)
 
 The following BONUS features are implemented:
 
