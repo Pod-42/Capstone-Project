@@ -10,19 +10,19 @@
 ## App Overview
 
 ### Description 
-FootyNow aims to keep soccer fans across the globe up dated on current soccer news including scores, team news and general press coverage over football teams.
+FootyNow aims to keep soccer fans across the globe updated on current soccer news including scores, team news and general press coverage over football teams.
 
 
 ### App Evaluation
 
 <!-- Evaluation of your app across the following attributes -->
 
-- **Description:** A digital platform for delivering footbal updates and information to soccer fans across the globe. It aims to provide users with an easy and convenient way to receive live updates on information regarding their favorite teams around the world.
-- **Mobile:** This football app is well-suited for the mobile platform. With most people seen carrying a mobile device wherever they go, the app can enable users to stay in tuned regardsless of their location.
-- **Story:** With the popularity of football increasing each and every year, the information demand is also increasing. Users need ways to get access to high quality updates in the fastest and easiest way possibles.
+- **Description:** A digital platform for delivering football updates and information to soccer fans across the globe. It aims to provide users with an easy and convenient way to receive live updates on information regarding their favorite teams around the world.
+- **Mobile:** This football app is well-suited for the mobile platform. With most people seen carrying a mobile device wherever they go, the app can enable users to stay in tune regardsless of their location.
+- **Story:** With the popularity of football increasing each and every year, the information demand is also increasing. Users need ways to get access to high-quality updates in the fastest and easiest way possible.
 - **Market:** The football app market is competitive, but it remains a lucrative industry. The growth of the popularity of sports is undeniables. Success in this market depends on identifying a unique selling proposition, catering to specific niches, or providing features that set it apart from the competition. Understanding the target audience and their needs is key.
 - **Habit Forming:** For the football app to be successful, it should be habit-forming. This can be achieved through personalized content recommendations, push notifications, and user engagement features. The app should aim to create a routine where users rely on it for their daily news updates.
-- **Scope:** The app aims to provide high quality content for most professional leagues around the globe.
+- **Scope:** The app aims to provide high-quality content for most professional leagues around the globe.
 
 ## Product Spec
 
@@ -31,17 +31,18 @@ FootyNow aims to keep soccer fans across the globe up dated on current soccer ne
 Required Features (Minimum Viable Product):
 
 - **User selects country of interest**
-- **When a country is selected, user then selects league and views all live games happebing or that recently happened**
+- **When a country is selected, the user then selects league and views all live games happening or that recently happened**
 
 Stretch Features:
 
-- **fill in here**
-- ...
+- Notifications for favorite team matches.
+- In-app live score predictions and betting odds.
 
 ### 2. Chosen API(s)
 
 - **list first API endpoint here**
   - football API
+    - Provides live score updates, fixture lists, and league standings.
 - ...
 
 ### 3. User Interaction
@@ -50,9 +51,10 @@ Required Feature
 
 - **User opens the app**
   - The app opens
-  - The app displays headlines of various news
-- **The user clicks a headline**
-  - The app displays rest of the news associated with the headline
+  - The app shows all the live matches that are happening right now
+  - There is a search button on the top of the app
+  - User can search for their favorite team and see all the scores from the previous games
+  - User can save their favorite team 
   
 
 ## Wireframes
