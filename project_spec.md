@@ -60,7 +60,7 @@ Required Feature
 ## Wireframes
 
 <!-- Add picture of your hand sketched wireframes in this section -->
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/Pod-42/Capstone-Project/blob/main/IMG_D421E7CC901D-1.jpeg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
