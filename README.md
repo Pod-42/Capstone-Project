@@ -11,8 +11,7 @@ Time spent: 10 hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **short description of your app**
-
+This document provides an overview, project spec, and wireframes for our team's capstone project: An app that aims to keep soccer fans across the globe up-to-date on current soccer news including scores, team news, and general press coverage of football teams.
 If we had to describe this milestone in three (3) emojis, they would be: 😆 😊 😃
 
 ## Milestone Requirements
