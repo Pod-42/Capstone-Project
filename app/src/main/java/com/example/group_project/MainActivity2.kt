@@ -23,7 +23,7 @@ class MainActivity2 : AppCompatActivity() {
         /*
 
         Note to Kemar in MainActivity2.kt
-        There is 2 team ids being passed from the main_activity.kt - Home team and away team. So, you can use this team id information to do an api call and make changes in the
+        There is 2 team ids being passed from the app_adapter.kt - Home team and away team. So, you can use this team id information to do an api call and make changes in the
         main_team_details.xml file. What I was thinking was you can get the players names and images in the teams and show it in the recyclerview. If you
         have other ideas you can implement that as well.
 
