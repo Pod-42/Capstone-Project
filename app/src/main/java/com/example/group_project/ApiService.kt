@@ -10,5 +10,8 @@ interface ApiService {
     @GET("v3/fixtures?season=2022")
     suspend fun getTeamFixtures(@Query("team") teamId: Int): Response<FixtureResponse>
 
+    @GET("v2/teams/search")
+    suspend fun searchTeam(@Query("team") team: String)
+
 }
 
