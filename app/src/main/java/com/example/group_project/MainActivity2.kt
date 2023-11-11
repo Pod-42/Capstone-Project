@@ -16,6 +16,8 @@ class MainActivity2 : AppCompatActivity() {
 
         teamDetailsTextView.text = teamId.toString()
 
+        
+
         backButton.setOnClickListener {
             finish() // Close this activity and return to the previous one
         }

@@ -6,18 +6,29 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search1"
+        android:layout_width="405dp"
+        android:layout_height="65dp"
+        android:background="#CBD3FA"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
 
     <TextView
         android:id="@+id/liveMatchesHeading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="407dp"
+        android:layout_height="34dp"
+        android:background="#A3D7E6"
+        android:fontFamily="@font/berkshire_swash"
         android:gravity="center_horizontal"
         android:paddingBottom="8dp"
         android:text="Live Matches"
+        android:textSize="25sp"
         android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="#F2B6472B"
+        android:textColorLink="#F6E9E9"
         app:layout_constraintTop_toBottomOf="@+id/search1"
-        tools:layout_editor_absoluteX="-1dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/score_recycler_view"
@@ -28,11 +39,5 @@
         app:layout_constraintTop_toBottomOf="@+id/search1"
         tools:layout_editor_absoluteX="1dp" />
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search1"
-        android:layout_width="391dp"
-        android:layout_height="72dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

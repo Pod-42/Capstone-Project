@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import android.animation.AnimatorListenerAdapter
 import android.content.Intent
+import androidx.core.content.ContextCompat
 
 class FixtureAdapter(private var fixtureList: List<Fixture>) : RecyclerView.Adapter<FixtureAdapter.FixtureViewHolder>() {
 
@@ -39,6 +40,12 @@ class FixtureAdapter(private var fixtureList: List<Fixture>) : RecyclerView.Adap
         holder.tvTeam1Name.text = currentFixture.teams.home.name
         holder.tvScore.text = "${currentFixture.goals.home} : ${currentFixture.goals.away}"
         holder.tvTeam2Name.text = currentFixture.teams.away.name
+
+        if (position % 2 == 0) {
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorWhite))
+        } else {
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorLightGrey))
+        }
 
         Glide.with(holder.itemView.context)
             .load(currentFixture.teams.home.logo)

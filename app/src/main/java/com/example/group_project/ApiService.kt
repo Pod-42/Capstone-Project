@@ -7,7 +7,7 @@ interface ApiService {
     @GET("v3/fixtures?live=all")
     suspend fun getLiveFixtures(): Response<FixtureResponse>
 
-    @GET("v3/fixtures")
+    @GET("v3/fixtures?season=2022")
     suspend fun getTeamFixtures(@Query("team") teamId: Int): Response<FixtureResponse>
 
 }

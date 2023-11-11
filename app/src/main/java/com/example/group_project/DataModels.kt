@@ -21,6 +21,8 @@ data class FixtureDetails(
 data class League(
     val id: Int,
     val name: String,
+    val season: Int,
+    val round: String
 )
 
 data class Teams(
