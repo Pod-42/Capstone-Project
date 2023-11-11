@@ -62,6 +62,7 @@ class FixtureAdapter(private var fixtureList: List<Fixture>) : RecyclerView.Adap
             val intent = Intent(context, MainActivity2::class.java)
 
             intent.putExtra("TEAM_ID", currentFixture.teams.home.id)
+            intent.putExtra("TEAM_ID1", currentFixture.teams.away.id)
 
             context.startActivity(intent)
         }
