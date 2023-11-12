@@ -12,37 +12,31 @@ import org.json.JSONObject
 import org.json.JSONException
 import java.io.IOException
 
-
+// declaring them as a global variable
+var teamId: Int = -1
+var teamId1: Int = -1
 class MainActivity2 : AppCompatActivity() {
     private lateinit var stats1List: MutableList<String>
     private lateinit var stats2List: MutableList<String>
     private lateinit var rvStats1: RecyclerView
-    private var teamId: Int = -1
-    private var teamId1: Int = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
 
+        val backButton5: ImageView = findViewById(R.id.backButton5)
+
+        backButton5.setOnClickListener {
+            finish() // Close this activity and return to the previous one
+        }
         stats1List = mutableListOf()
         stats2List = mutableListOf()
         rvStats1 = findViewById(R.id.stats_list)
-//        val teamDetailsTextView: TextView = findViewById(R.id.teamDetailsTextView)
-//        val teamDetailsTextView1: TextView = findViewById(R.id.teamDetailsTextView1)
 
         // Retrieve team IDs from intent
         teamId = intent.getIntExtra("TEAM_ID", -1)
         teamId1 = intent.getIntExtra("TEAM_ID1", -1)
-
-        // Set text in TextViews
-//        teamDetailsTextView.text = teamId.toString()
-//        teamDetailsTextView1.text = teamId1.toString()
-
         getMatchStats()
-
-//        backButton.setOnClickListener {
-//            finish() // Close this activity and return to the previous one
-//        }
     }
 
     private fun getMatchStats() {

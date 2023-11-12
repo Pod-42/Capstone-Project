@@ -22,12 +22,12 @@ class StatsAdapter(private  val statsList: List<String>) : RecyclerView.Adapter<
 {
     class ViewHolder(view: View): RecyclerView.ViewHolder(view){
         val statsText1: TextView
+        val teamDetailsTextView: TextView = view.findViewById(R.id.teamDetailsTextView)
+        val teamDetailsTextView1: TextView = view.findViewById(R.id.teamDetailsTextView1)
 
 
         init {
             statsText1 = view.findViewById(R.id.stats1_text)
-            val teamDetailsTextView: TextView = view.findViewById(R.id.teamDetailsTextView)
-            val teamDetailsTextView1: TextView = view.findViewById(R.id.teamDetailsTextView1)
         }
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StatsAdapter.ViewHolder {
@@ -40,6 +40,9 @@ class StatsAdapter(private  val statsList: List<String>) : RecyclerView.Adapter<
     override fun onBindViewHolder(holder: StatsAdapter.ViewHolder, position: Int) {
 
         holder.statsText1.text = "Stats 1: ${statsList[position]}"
+        holder.teamDetailsTextView.text = teamId.toString()
+        holder.teamDetailsTextView1.text = teamId1.toString()
+
         Log.d("StatsAdapter", "onBindViewHolder position: $position, stats1: ${statsList[position]}")
     }
 
