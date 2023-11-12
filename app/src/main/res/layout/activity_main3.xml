@@ -12,12 +12,19 @@
         android:layout_width="74dp"
         android:layout_height="54dp"
         android:src="@drawable/back"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+=======
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> 30efbf4bcbbfaccb4a94dd9b237e0cd30641c9b5
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/team_view"
@@ -27,6 +34,10 @@
         android:paddingVertical="16dp"
         android:background="@color/searchbarGreen"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
+=======
+        app:layout_constraintHorizontal_bias="0.0"
+>>>>>>> 30efbf4bcbbfaccb4a94dd9b237e0cd30641c9b5
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintBottom_toBottomOf="parent" />
@@ -40,19 +51,28 @@
 
     <TextView
         android:id="@+id/team_textView4"
+<<<<<<< HEAD
         android:layout_width="65dp"
         android:layout_height="26dp"
+=======
+        android:layout_width="406dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:background="#F3EDBD"
+>>>>>>> 30efbf4bcbbfaccb4a94dd9b237e0cd30641c9b5
         android:fontFamily="@font/berkshire_swash"
         android:gravity="center"
         android:layout_marginTop="8dp"
         android:text="Search Results"
         android:textColor="#244BAF"
         android:textSize="19sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+=======
+        app:layout_constraintTop_toBottomOf="@+id/backButton3" />
+>>>>>>> 30efbf4bcbbfaccb4a94dd9b237e0cd30641c9b5
 
 </androidx.constraintlayout.widget.ConstraintLayout>
