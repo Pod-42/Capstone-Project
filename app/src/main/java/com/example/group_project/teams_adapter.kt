@@ -28,9 +28,9 @@ class TeamsListAdapter(private var teams: List<FootballTeam>) : RecyclerView.Ada
         holder.teamNameTextView.text = currentTeam.name
 
         if (position % 2 == 1) {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorWhite))
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.searchbarGreen))
         } else {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorLightGrey))
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.green2))
         }
 
         Glide.with(holder.itemView.context)
