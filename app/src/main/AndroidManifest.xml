@@ -15,8 +15,9 @@
         android:theme="@style/Theme.Group_project"
         tools:targetApi="31">
         <activity
-            android:name=".team_options"
+            android:name=".TeamOptionsActivity"
             android:exported="false" />
+
         <activity
             android:name=".SearchResultsActivity"
             android:exported="false" />

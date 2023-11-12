@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 // User pressed the search button
                 if (query != null) {
-                    val intent = Intent(this@MainActivity, SearchResultsActivity::class.java)
+                    val intent = Intent(this@MainActivity, TeamOptionsActivity::class.java)
                     intent.putExtra("SEARCH_QUERY", query)
                     startActivity(intent)
                 }

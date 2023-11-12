@@ -27,7 +27,7 @@ class MainActivity2 : AppCompatActivity() {
         main_team_details.xml file. What I was thinking was you can get the players names and images in the teams and show it in the recyclerview. If you
         have other ideas you can implement that as well.
 
-        activity_team_detail.xml uses MainActivity.kt file
+        activity_team_detail.xml uses MainActivity2.kt file
         (activity_main.xml is the recyclerview and front_page.xml) uses app_adapter.kt and MainActivity.kt
 
          */
