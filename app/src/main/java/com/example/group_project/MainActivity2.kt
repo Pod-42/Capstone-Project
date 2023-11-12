@@ -11,13 +11,14 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_team_detail)
         val teamId = intent.getIntExtra("TEAM_ID", -1)
         val teamId1 = intent.getIntExtra("TEAM_ID1", -1)
+        val fixtureID = intent.getIntExtra("FixtureId", -1)
 
         val backButton: ImageView = findViewById(R.id.backButton)
         val teamDetailsTextView: TextView = findViewById(R.id.teamDetailsTextView)
         val teamDetailsTextView1: TextView = findViewById(R.id.teamDetailsTextView1)
 
 
-        teamDetailsTextView.text = teamId.toString()
+        teamDetailsTextView.text = "${teamId.toString()}  ${fixtureID.toString()}"
         teamDetailsTextView1.text = teamId1.toString()
 
         /*
