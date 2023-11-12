@@ -15,6 +15,7 @@ import java.io.IOException
 // declaring them as a global variable
 var teamId: Int = -1
 var teamId1: Int = -1
+var fixtureID: Int = -1
 class MainActivity2 : AppCompatActivity() {
     private lateinit var stats1List: MutableList<String>
     private lateinit var stats2List: MutableList<String>
@@ -24,7 +25,17 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
 
+        teamId = intent.getIntExtra("TEAM_ID", -1)
+        teamId1 = intent.getIntExtra("TEAM_ID1", -1)
+        fixtureID = intent.getIntExtra("FixtureId", -1)
+
         val backButton5: ImageView = findViewById(R.id.backButton5)
+
+
+//<<<<<<< HEAD
+//=======
+//        teamDetailsTextView.text = "${teamId.toString()}  ${fixtureID.toString()}"
+//        teamDetailsTextView1.text = teamId1.toString()
 
 
         /*
@@ -48,9 +59,6 @@ class MainActivity2 : AppCompatActivity() {
         stats2List = mutableListOf()
         rvStats1 = findViewById(R.id.stats_list)
 
-        // Retrieve team IDs from intent
-        teamId = intent.getIntExtra("TEAM_ID", -1)
-        teamId1 = intent.getIntExtra("TEAM_ID1", -1)
         getMatchStats()
 
     }
@@ -59,7 +67,7 @@ class MainActivity2 : AppCompatActivity() {
 
         // Use teamId and teamId1 in the API URL
         val request = Request.Builder()
-            .url("https://api-football-v1.p.rapidapi.com/v3/fixtures/statistics?fixture=215662&team=463")
+            .url("https://api-football-v1.p.rapidapi.com/v3/fixtures/statistics?fixture=$fixtureID&team=$teamId")
             .get()
             .addHeader("X-RapidAPI-Key", "18f06aa827msh381ea3eadf3ea75p1828c3jsne7f3ec96a4a0")
             .addHeader("X-RapidAPI-Host", "api-football-v1.p.rapidapi.com")
