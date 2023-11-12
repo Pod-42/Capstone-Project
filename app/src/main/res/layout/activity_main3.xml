@@ -1,43 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <ImageView
         android:id="@+id/backButton3"
         android:layout_width="74dp"
         android:layout_height="54dp"
-        android:layout_marginStart="16dp"
         android:src="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.0"/>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/team_view"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/searchbarGreen"
+        android:paddingVertical="16dp"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/backButton3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/team_textView4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <TextView
         android:id="@+id/team_textView4"
-        android:layout_width="382dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="68dp"
-        android:text="Available Teams Options"
+        android:layout_width="406dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:background="#F3EDBD"
+        android:fontFamily="@font/berkshire_swash"
         android:gravity="center"
+        android:text="Search Results"
+        android:textColor="#244BAF"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/backButton3"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

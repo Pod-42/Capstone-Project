@@ -21,4 +21,9 @@
     <color name="colorAquamarine">#7FFFD4</color>
     <color name="colorCoral">#FF7F50</color>
     <color name="colorLightGrey">#E0E0E0</color>
+
+    <color name="searchbarGreen">#bad6b8</color>
+    <color name="green2">#88b984</color>
+
+
 </resources>

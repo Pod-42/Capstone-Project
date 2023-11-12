@@ -3,32 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".team_options">
+    android:layout_height="90dp">
 
     <ImageView
-        android:id="@+id/team_imageView1"
-        android:layout_width="118dp"
-        android:layout_height="97dp"
+        android:id="@+id/team_imageView"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.053"
+        app:layout_constraintVertical_bias="0.457"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/team_textView5"
+        android:id="@+id/team_textView"
         android:layout_width="193dp"
         android:layout_height="55dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="TextView"
-        android:textSize="20sp"
-        android:gravity="center_horizontal"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.303"
-        app:layout_constraintStart_toEndOf="@+id/team_imageView1"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toEndOf="@+id/team_imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085" />
+        app:layout_constraintVertical_bias="0.457" />
 </androidx.constraintlayout.widget.ConstraintLayout>
