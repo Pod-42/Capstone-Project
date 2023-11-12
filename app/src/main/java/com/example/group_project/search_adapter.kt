@@ -46,11 +46,14 @@ class SearchAdapter(private var searchResults: List<Fixture>) : RecyclerView.Ada
         holder.name.text = currentResult.league.name
         holder.season.text = "Season : ${currentResult.league.season.toString()}"
 
-        if (position % 2 == 0) {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorWhite))
-        } else {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorLightGrey))
-        }
+//        if (position % 2 == 0) {
+//            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.searchbarGreen))
+//        } else {
+//            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.green2))
+//        }
+        // Set a specific background color for all items
+        holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.green2))
+
 
         Glide.with(holder.itemView.context)
             .load(currentResult.teams.home.logo)
