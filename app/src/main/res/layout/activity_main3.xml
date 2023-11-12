@@ -11,12 +11,10 @@
         android:layout_width="74dp"
         android:layout_height="54dp"
         android:src="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/team_view"
@@ -25,27 +23,25 @@
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/team_textView4"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/team_textView4"
-        android:layout_width="382dp"
-        android:layout_height="26dp"
+        android:layout_width="406dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
         android:background="#F3EDBD"
         android:fontFamily="@font/berkshire_swash"
         android:gravity="center"
         android:text="Search Results"
         android:textColor="#244BAF"
         android:textSize="19sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintTop_toBottomOf="@+id/backButton3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
