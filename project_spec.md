@@ -54,7 +54,7 @@ Required Feature
   - [X] The app shows all the live matches that are happening right now
   - [X] There is a search button on the top of the app
   - [X] User can search for their favorite team and see all the scores from the previous games
-  -     User can save their favorite team 
+  - User can save their favorite team 
   
 
 ## Wireframes
