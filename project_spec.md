@@ -73,6 +73,9 @@ process, or what you learned this unit!
 
 For Milestone 2, include **2+ Videos/GIFs** of the build process here!
 
+<img src='https://github.com/Pod-42/Capstone-Project/blob/main/Kapture%202023-11-11%20at%2016.27.31.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/Pod-42/Capstone-Project/blob/main/Kapture%202023-11-11%20at%2016.27.31.gif' title='Video Demo' width='' alt='Video Demo' />
+
 ---------
 ---------
 
