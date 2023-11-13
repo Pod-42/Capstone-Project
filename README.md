@@ -1,6 +1,6 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 2 - **FootNow*
+# AND101 Milestone 2 - **FootNow**
 
 Submitted by:
 - Saujanya Thapaliya
@@ -44,7 +44,7 @@ The following EXTRA features are implemented:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/Pod-42/Capstone-Project/blob/main/Kapture%202023-11-12%20at%2019.00.35.gif' title='Video Demo' width='' alt='Video Demo' />
 
 VIDEO created with **your chosen video tool**
 
