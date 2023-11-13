@@ -46,7 +46,7 @@ Here's a video that demos all of the app's implemented features:
 
 <img src='https://github.com/Pod-42/Capstone-Project/blob/main/Kapture%202023-11-12%20at%2019.00.35.gif' title='Video Demo' width='' alt='Video Demo' />
 
-VIDEO created with **your chosen video tool**
+VIDEO created with Kap
 
 ## Notes
 
