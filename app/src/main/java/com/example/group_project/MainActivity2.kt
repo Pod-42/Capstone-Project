@@ -1,6 +1,5 @@
 package com.example.group_project
 
-import StatsAdapter
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
@@ -29,7 +28,7 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main4)
 
         val backButton5: ImageView = findViewById(R.id.backButton5)
-
+        val heading: TextView = findViewById(R.id.teamDetailsTextView)
         backButton5.setOnClickListener {
             finish() // Close this activity and return to the previous one
         }
@@ -43,6 +42,8 @@ class MainActivity2 : AppCompatActivity() {
         fixtureID = intent.getIntExtra("FixtureId", -1)
         teamname = intent.getStringExtra("TEAM_NAME") ?: "-1"
         teamname1 = intent.getStringExtra("TEAM_NAME1") ?: "-1"
+        heading.text = "$teamname vs $teamname1 stats"
+
         getMatchStats()
     }
 

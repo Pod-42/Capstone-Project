@@ -64,7 +64,7 @@ class FixtureAdapter(private var fixtureList: List<Fixture>) : RecyclerView.Adap
             intent.putExtra("TEAM_ID", currentFixture.teams.home.id)
             intent.putExtra("TEAM_ID1", currentFixture.teams.away.id)
             intent.putExtra("TEAM_NAME", currentFixture.teams.home.name)
-            // intent.putExtra("TEAM_NAME1", currentFixture.teams.away.name)
+            intent.putExtra("TEAM_NAME1", currentFixture.teams.away.name)
             intent.putExtra("FixtureId", currentFixture.fixture.id)
 
             context.startActivity(intent)
