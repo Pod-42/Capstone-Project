@@ -1,4 +1,4 @@
-package com.example.group_project
+import com.example.group_project.R
 
 import android.util.Log
 
@@ -18,16 +18,18 @@ import android.animation.AnimatorListenerAdapter
 import android.content.Intent
 import androidx.core.content.ContextCompat
 
-class StatsAdapter(private  val statsList: List<String>) : RecyclerView.Adapter<StatsAdapter.ViewHolder>()
+class StatsAdapter(private  val statsList: List<String>,private  val stats2List: List<String>,private val teamname: String, private val teamname1: String) : RecyclerView.Adapter<StatsAdapter.ViewHolder>()
 {
     class ViewHolder(view: View): RecyclerView.ViewHolder(view){
         val statsText1: TextView
+        val statsText2: TextView
         val teamDetailsTextView: TextView = view.findViewById(R.id.teamDetailsTextView)
-        val teamDetailsTextView1: TextView = view.findViewById(R.id.teamDetailsTextView1)
+        // val teamDetailsTextView1: TextView = view.findViewById(R.id.teamDetailsTextView1)
 
 
         init {
             statsText1 = view.findViewById(R.id.stats1_text)
+            statsText2 = view.findViewById(R.id.stats2_text)
         }
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StatsAdapter.ViewHolder {
@@ -39,9 +41,11 @@ class StatsAdapter(private  val statsList: List<String>) : RecyclerView.Adapter<
 
     override fun onBindViewHolder(holder: StatsAdapter.ViewHolder, position: Int) {
 
-        holder.statsText1.text = "Stats 1: ${statsList[position]}"
-        holder.teamDetailsTextView.text = teamId.toString()
-        holder.teamDetailsTextView1.text = teamId1.toString()
+        holder.statsText1.text = "Stats : ${statsList[position]}"
+        holder.statsText2.text = "Quality: ${stats2List[position]}"
+        holder.teamDetailsTextView.text = "Team Name: $teamname"
+
+        // holder.teamDetailsTextView1.text = teamname1
 
         Log.d("StatsAdapter", "onBindViewHolder position: $position, stats1: ${statsList[position]}")
     }

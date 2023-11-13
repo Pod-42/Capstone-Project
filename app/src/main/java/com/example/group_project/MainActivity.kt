@@ -1,5 +1,4 @@
 package com.example.group_project
-
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
