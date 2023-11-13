@@ -50,11 +50,11 @@ Stretch Features:
 Required Feature
 
 - **User opens the app**
-  - The app opens
-  - The app shows all the live matches that are happening right now
-  - There is a search button on the top of the app
-  - User can search for their favorite team and see all the scores from the previous games
-  - User can save their favorite team 
+  - [X] The app opens
+  - [X] The app shows all the live matches that are happening right now
+  - [X] There is a search button on the top of the app
+  - [X] User can search for their favorite team and see all the scores from the previous games
+  -     User can save their favorite team 
   
 
 ## Wireframes
