@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/green2"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.SearchView
@@ -22,14 +23,12 @@
         android:id="@+id/liveMatchesHeading"
         android:layout_width="407dp"
         android:layout_height="34dp"
-        android:background="#A3D7E6"
-        android:fontFamily="@font/berkshire_swash"
+        android:background="@color/green3"
         android:gravity="center_horizontal"
-        android:paddingBottom="8dp"
+        android:fontFamily="@font/new_font"
         android:text="Live Matches"
         android:textSize="25sp"
-        android:textAppearance="?attr/textAppearanceHeadline6"
-        android:textColor="#F2B6472B"
+        android:textColor="@color/colorYellow"
         android:textColorLink="#F6E9E9"
         app:layout_constraintTop_toBottomOf="@+id/search1"
         app:layout_constraintStart_toStartOf="parent"

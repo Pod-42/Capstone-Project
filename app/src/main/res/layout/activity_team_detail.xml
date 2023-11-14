@@ -7,28 +7,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/stats2_text"
-        android:layout_width="411dp"
-        android:layout_height="46dp"
-        android:text=":"
-        android:textColor="@color/material_dynamic_neutral40"
-        android:textSize="20sp"
+        android:id="@+id/stats1_text"
+        android:layout_width="407dp"
+        android:layout_height="39dp"
+        android:text="Stat"
+        android:textStyle="bold"
         android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/stats1_text"
-        android:layout_width="407dp"
-        android:layout_height="39dp"
-        android:text="Stat"
+        android:id="@+id/stats2_text"
+        android:layout_width="411dp"
+        android:layout_height="46dp"
+        android:text=":"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"
         android:gravity="center"
-        android:textColor="@color/material_dynamic_neutral40"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stats2_text" />
-
+        app:layout_constraintTop_toBottomOf="@+id/stats1_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

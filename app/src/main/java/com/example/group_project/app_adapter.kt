@@ -42,9 +42,9 @@ class FixtureAdapter(private var fixtureList: List<Fixture>) : RecyclerView.Adap
         holder.tvTeam2Name.text = currentFixture.teams.away.name
 
         if (position % 2 == 0) {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorWhite))
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.searchbarGreen))
         } else {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.colorLightGrey))
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.green2))
         }
 
         Glide.with(holder.itemView.context)

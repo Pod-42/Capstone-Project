@@ -34,7 +34,7 @@ class StatsAdapter(private  val statsList: List<String>,private  val stats2List:
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         holder.statsText1.text = "Stats : ${statsList[position]}"
-        holder.statsText2.text = "Quality: ${stats2List[position]}"
+        holder.statsText2.text = "Quantity: ${stats2List[position]}"
 
         if (position % 2 == 1) {
             holder.itemView.setBackgroundColor(ContextCompat.getColor(holder.itemView.context, R.color.searchbarGreen))

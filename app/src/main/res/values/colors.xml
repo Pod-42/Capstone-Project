@@ -24,6 +24,8 @@
 
     <color name="searchbarGreen">#bad6b8</color>
     <color name="green2">#88b984</color>
+    <color name="green3">#3a6238</color>
+    <color name="redDark">#8b0000</color>
 
 
 </resources>
