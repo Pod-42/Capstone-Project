@@ -44,7 +44,7 @@ The following EXTRA features are implemented:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='https://github.com/Pod-42/Capstone-Project/blob/main/Kapture%202023-11-12%20at%2019.00.35.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/Pod-42/Capstone-Project/blob/main/final-gif.gif' title='Video Demo' width='400' alt='Video Demo' />
 
 VIDEO created with Kap
 
